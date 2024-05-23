@@ -63,10 +63,9 @@ fun RoutineContent() {
             textDecoration = TextDecoration.Underline,
             modifier = Modifier.padding(top = 16.dp, bottom = 16.dp)
         )
-
-        // Add Image here
+        
         Image(
-            painter = painterResource(id = R.drawable.perfil), // Replace with your image resource name
+            painter = painterResource(id = R.drawable.perfil),
             contentDescription = null,
             modifier = Modifier
                 .fillMaxWidth()
